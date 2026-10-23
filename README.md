@@ -1,1 +1,1 @@
-# Laboratorio-se-ales-biomedicas-G9-PSIB
+# Laboratorio-señales-biomedicas-G9-PSIB
