@@ -31,7 +31,7 @@ def filtro_pasa_altos(x, fs, fc=FC_PASA_ALTOS, orden=2):
     b, a = butter(N=orden, Wn=fc / (fs / 2), btype="highpass")
     return filtfilt(b, a, x)
  
- 
+'''
 def filtro_notch(x, fs, f0=NOTCH_FREQ, q=NOTCH_Q):
     """Filtro notch IIR de fase cero (filtfilt).
  
@@ -77,3 +77,4 @@ def resta_linea_base_mediana(x, fs, ventana_s=VENTANA_MEDIANA_S):
         n += 1
     base = pd.Series(x).rolling(n, center=True, min_periods=1).median().values
     return x - base
+'''
