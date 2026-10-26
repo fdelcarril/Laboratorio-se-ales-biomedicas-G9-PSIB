@@ -1,5 +1,5 @@
 """
-Agarra la senal de ECG desde un archivo CSV (una columna de muestras).
+Agarra la señal de ECG desde un archivo CSV (una columna de muestras).
 """
  
 import pandas as pd
